@@ -1,0 +1,199 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|c:\\users\\dell\\desktop\\studentmanagement\\backend\\studentmanagement\\studentmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|c:\\users\\dell\\desktop\\studentmanagement\\backend\\studentmanagement\\studentmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|c:\\users\\dell\\desktop\\studentmanagement\\backend\\studentmanagement\\studentmanagement\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|c:\\users\\dell\\desktop\\studentmanagement\\backend\\studentmanagement\\studentmanagement\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|c:\\users\\dell\\desktop\\studentmanagement\\backend\\studentmanagement\\studentmanagement\\models\\addacademicinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\models\\addacademicinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|c:\\users\\dell\\desktop\\studentmanagement\\backend\\studentmanagement\\studentmanagement\\models\\entities\\academicinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\models\\entities\\academicinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|c:\\users\\dell\\desktop\\studentmanagement\\backend\\studentmanagement\\studentmanagement\\models\\addstudentclassdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\models\\addstudentclassdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|c:\\users\\dell\\desktop\\studentmanagement\\backend\\studentmanagement\\studentmanagement\\migrations\\20240730064642_added fee in academicinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\migrations\\20240730064642_added fee in academicinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|c:\\users\\dell\\desktop\\studentmanagement\\backend\\studentmanagement\\studentmanagement\\models\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\models\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|c:\\users\\dell\\desktop\\studentmanagement\\backend\\studentmanagement\\studentmanagement\\models\\addstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\models\\addstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|c:\\users\\dell\\desktop\\studentmanagement\\backend\\studentmanagement\\studentmanagement\\models\\updatestudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA4367E-AD36-47FA-8B46-4C827BFBA496}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\models\\updatestudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "StudentManagement\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwDQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:39:08.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240730064642_added fee in academicinfo.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\Migrations\\20240730064642_added fee in academicinfo.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Migrations\\20240730064642_added fee in academicinfo.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\Migrations\\20240730064642_added fee in academicinfo.cs",
+              "RelativeToolTip": "StudentManagement\\Migrations\\20240730064642_added fee in academicinfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:46:44.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddAcademicInfoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\Models\\AddAcademicInfoDto.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Models\\AddAcademicInfoDto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\Models\\AddAcademicInfoDto.cs",
+              "RelativeToolTip": "StudentManagement\\Models\\AddAcademicInfoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T09:29:51.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AcademicInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\Models\\Entities\\AcademicInfo.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Models\\Entities\\AcademicInfo.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\Models\\Entities\\AcademicInfo.cs",
+              "RelativeToolTip": "StudentManagement\\Models\\Entities\\AcademicInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T09:26:39.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddStudentClassDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\Models\\AddStudentClassDto.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Models\\AddStudentClassDto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\Models\\AddStudentClassDto.cs",
+              "RelativeToolTip": "StudentManagement\\Models\\AddStudentClassDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T08:40:30.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\Program.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\Program.cs",
+              "RelativeToolTip": "StudentManagement\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:25:58.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentManagement\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\appsettings.json",
+              "RelativeToolTip": "StudentManagement\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-26T05:21:03.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "StudentManagement\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:16:44.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\Models\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Models\\Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\Models\\Entities\\Student.cs",
+              "RelativeToolTip": "StudentManagement\\Models\\Entities\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:06:58.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateStudentDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\Models\\UpdateStudentDto.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Models\\UpdateStudentDto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\Models\\UpdateStudentDto.cs",
+              "RelativeToolTip": "StudentManagement\\Models\\UpdateStudentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:14:15.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddStudentDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\Models\\AddStudentDto.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\Models\\AddStudentDto.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\StudentManagement\\Backend\\StudentManagement\\StudentManagement\\Models\\AddStudentDto.cs",
+              "RelativeToolTip": "StudentManagement\\Models\\AddStudentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:13:10.431Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

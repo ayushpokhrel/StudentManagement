@@ -1,0 +1,41 @@
+<div class="container-fluid ">
+  <div class="row flex-nowrap">
+      <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-secondary">
+          <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+              <a class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                  <span class="fs-5 d-none d-sm-inline text-white">Admin Dashboard</span>
+              </a>
+              <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                  <li class="nav-item">
+                      <button (click)="showComponent('studentdetails')" class="nav-link align-middle px-0 text-white">
+                          <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Student Details</span>
+                      </button>
+                  </li>
+                  <li class="nav-item">
+                    <button (click)="showComponent('billentry')" class="nav-link align-middle px-0 text-white">
+                        <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Bill entry</span>
+                    </button>
+                </li>
+                <li class="nav-item">
+                 <button (click)="showComponent('academicinfo')"class="nav-link align-middle px-0 text-white">
+                      <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Academic Info</span>
+                 </button>
+              </li>
+              </ul>
+              <hr>
+
+          </div>
+        </div>
+      <div class="col py-3">
+        <p *ngIf="welcomemsg">Welcome, {{welcomeUserName}}</p>
+        <div class="d-flex justify-content-end">
+          <button class="btn btn-danger"  (click)="Logout()">Logout</button>
+      </div>
+      <app-student-details *ngIf="currentComponent === 'studentdetails'"></app-student-details>
+      <app-bill-entry *ngIf="currentComponent === 'billentry'"></app-bill-entry>
+      <app-academic-info *ngIf="currentComponent === 'academicinfo'"></app-academic-info>
+  </div>
+</div>
+
+
+

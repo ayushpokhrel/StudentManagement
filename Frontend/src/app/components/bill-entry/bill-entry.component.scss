@@ -1,0 +1,49 @@
+.voucherdiv{
+  background-color: rgb(231, 140, 235);
+  height: 1000px;
+  width: 70%;
+  margin: auto;
+  margin-top: 52px;
+}
+
+.orghead{
+  padding-top:52px ;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.date{
+  text-align: end;
+  margin-right: 18px;
+}
+
+.datastyle{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 18px;
+  font-style: oblique;
+  margin-top: 18px;
+}
+.firstrow{
+  display: flex;
+  justify-content: space-around;
+}
+
+.secondrow{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.thirdrow{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.feesection{
+  float: right;
+  margin-top: 20px;
+  margin-right: 150px;
+}
+
