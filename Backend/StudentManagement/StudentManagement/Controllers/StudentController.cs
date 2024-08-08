@@ -15,7 +15,7 @@ namespace StudentManagement.Controllers
         public StudentController(ApplicationDbContext dbContext)
         {
             this.dbContext = dbContext;
-        }
+        }  
 
 
         [HttpGet]
