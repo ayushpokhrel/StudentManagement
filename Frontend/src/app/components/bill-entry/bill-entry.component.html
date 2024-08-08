@@ -1,0 +1,101 @@
+
+<div class="container-fluid">
+
+  <form [formGroup]="amountForm" (submit)="payBill()">
+    <h2>Bill Management</h2>
+    <div class="form-row d-flex">
+      <div class="col-6">
+        <label for="name">Student Name</label>
+        <input type="text" class="form-control" placeholder="Student Name" formControlName="name">
+      </div>
+      <div class="col-6">
+        <label for="select">Invoice Type</label>
+        <select class="form-select" aria-label="Default select example" formControlName="InvoiceType">
+          <option selected>Select the Invoice type</option>
+          <option value="Tuition">Tuition</option>
+          <option value="Computer">Computer</option>
+          <option value="Library">Library</option>
+        </select>
+      </div>
+    </div>
+
+
+    <div class="form-row d-flex">
+      <div class="col-6">
+        <label for="name">Invoice Number</label>
+        <input type="text" class="form-control" placeholder="Invoice Number" formControlName="invoiceNumber">
+      </div>
+      <div class="col-6">
+        <label for="name">Invoice Date</label>
+        <input type="date" class="form-control" placeholder="Invoice Date" formControlName="invoiceDate" />
+      </div>
+    </div>
+
+
+      <div class="form-row d-flex">
+        <div class="col-6">
+          <label for="name">Payable Amount</label>
+          <input type="text" class="form-control" placeholder="Paying Amount" formControlName="amt">
+        </div>
+        <div class="col-6">
+          <label for="select">Installment Type</label>
+          <select class="form-select" aria-label="Default select example" formControlName="installment">
+            <option selected>Select the Installment type</option>
+            <option value="First Installment">First Installment</option>
+            <option value="Second Installment">Second Installment</option>
+            <option value="Final Installment">Final Installment</option>
+          </select>
+        </div>
+      </div>
+
+
+      <div class="form-row d-flex">
+        <div class="col-6">
+          <label for="name">Student Registered Email</label>
+          <input type="text" class="form-control" placeholder="Email" formControlName="email">
+        </div>
+        <div class="col-6">
+          <button class="float-end mt-3 p-2 btn btn-secondary" type="submit">Pay Bill</button>
+        </div>
+      </div>
+
+  </form>
+  <div >
+    <div *ngIf="toDeduct" class="card card-body">
+      Your Previous Fee Amount was {{fromDB}}, after Deducting {{toDeduct}},
+      Your Pending Fee Is: <i><b>{{ pendingFee }}</b></i>
+    </div>
+    <div *ngIf="noexistingemail" class="card card-body mt-5">
+      Email didn't match existing database record !!!
+    </div>
+  </div>
+
+  <div class="voucherdiv" *ngIf="vouchershow" id="downloadbill">
+    <h4 class="orghead">Bill Payment Receipt</h4>
+    <div class="date">Invoice Date: {{this.amountForm.value.invoiceDate}}</div>
+    <div class="firstrow">
+      <div class="datastyle">Student Name<br/>{{this.amountForm.value.name}}</div>
+      <div class="datastyle">Invoice Type<br/>{{this.amountForm.value.InvoiceType}}</div>
+
+    </div>
+    <div class="secondrow">
+      <div class="datastyle">Student Email<br/>{{this.amountForm.value.email}}</div>
+      <div class="datastyle">Installment Type<br/>{{this.amountForm.value.installment}}</div>
+
+    </div>
+
+    <div class="thirdrow">
+      <div class="datastyle">Invoice Number<br/>{{this.amountForm.value.invoiceNumber}}</div>
+      <div class="datastyle">Invoice Number<br/>{{this.amountForm.value.invoiceNumber}}</div>
+    </div>
+
+    <div class="feesection">
+      <div class="datastyle">Previous Fee<br/>{{fromDB}}</div>
+      <div class="datastyle">Deducted Fee<br/>{{toDeduct}}</div>
+      <div class="datastyle">Remaining Fee<br/>{{pendingFee}}</div>
+    </div>
+
+  </div>
+  <button class="btn btn-success d-flex float-end mt-2" *ngIf="vouchershow" (click)="downloadPdf()">Download Voucher</button>
+
+</div>

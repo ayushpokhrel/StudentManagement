@@ -1,0 +1,28 @@
+
+<div class="container-fluid">
+
+  <div>
+<h2>Academic Info</h2>
+    <table *ngIf="items" datatable [dtOptions]="dtOptions" class="table table-bordered row-border hover text-center" >
+      <tr>
+        <th>Id</th>
+        <th>Email</th>
+        <th>Degree</th>
+        <th>Enrolled Year</th>
+        <th>Enrolled Program</th>
+        <th>Current Semester</th>
+
+      </tr>
+      <tr  *ngFor="let item of items; let i=index">
+        <td>{{i+1}}</td>
+        <td>{{item.email}}</td>
+        <td>{{item.degree}}</td>
+        <td>{{item.enrolledYear}}</td>
+        <td>{{item.enrolledProgram}}</td>
+        <td class="mb-2">{{item.currentSemester}}</td>
+      </tr>
+    </table>
+
+    </div>
+  </div>
+

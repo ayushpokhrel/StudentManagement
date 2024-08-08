@@ -1,0 +1,44 @@
+<div class=" row d-flex mt-5">
+  <div class="col-4  justify-content-center">
+    <h3 class="">Register</h3>
+
+    <form [formGroup]="myform" (ngSubmit)="Submit()">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Full Name</label>
+        <input type="text" class="form-control" formControlName="name" placeholder="Enter Name">
+        <p *ngIf="nameInvalidAndUntouched" class="text-danger">Name is Required</p>
+      </div>
+
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="text" class="form-control" formControlName="email" placeholder="Enter email">
+        <p *ngIf="emailInvalidAndUntouched" class="text-danger">Email is Required</p>
+      </div>
+
+      <div class="form-group">
+        <label for="exampleInputEmail1">Phone</label>
+        <input type="text" class="form-control" formControlName="phone" placeholder="Enter Phone">
+        <p *ngIf="phoneInvalidAndUntouched" class="text-danger">Phone is Required</p>
+      </div>
+
+
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" formControlName="password" placeholder="Enter Password">
+        <p *ngIf="passwordInvalidAndUntouched" class="text-danger">Password is Required</p>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Register</button>
+    </form>
+
+  </div>
+
+
+  <div class="col-6 ">
+    <img class="rounded float-left img-fluid" src="./assets/download.jfif" alt="Student image"/>
+  </div>
+<!-- {{responseExample | json}} -->
+
+<div class="registrationmsg" *ngIf="registrationSuccess">Registration Successful</div>
+<div class="registrationmsg" *ngIf="registrationUnSuccess">Registration Error</div>
+</div>
